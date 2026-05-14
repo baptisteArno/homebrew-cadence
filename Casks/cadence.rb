@@ -1,9 +1,9 @@
 cask "cadence" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.2"
-  sha256 arm:   "620d8a19af9c12a521e14356c43648777b404e15d4059d214573a628f7e8f7c1",
-         intel: "271f3b1a136c6f4b0b563db0fbe36c535e26d846677ac08b6eea94c20479f8c2"
+  version "0.2.0"
+  sha256 arm:   "8385ddf1b712a19de9cd105bb4351e89591f20d1edd7d575f9094db5c345e880",
+         intel: "3d0d1c4113fefa55d7d44a0f1481cc9f0c53b8329a6dcad09555afb2cf1a54d8"
 
   url "https://github.com/baptisteArno/cadence/releases/download/cadence-v#{version}/Cadence-#{version}-#{arch}.dmg"
   name "Cadence"
