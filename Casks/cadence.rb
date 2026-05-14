@@ -15,7 +15,7 @@ cask "cadence" do
     regex(/^cadence-v?(\d+(?:\.\d+)+)$/i)
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Cadence.app"
 end
